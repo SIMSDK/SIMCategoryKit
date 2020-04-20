@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ZacharyIcoder/SIMCategoryKit'
+  s.homepage         = 'https://github.com/SIMSDK/SIMCategoryKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZacharyIcoder' => '811528603@qq.com' }
-  s.source           = { :git => 'https://github.com/ZacharyIcoder/SIMCategoryKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SIMSDK/SIMCategoryKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04298056EA654D4483A77D4E1BE79F12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		082CAA177C4D74637B1C54D9E3A2F9CE /* Pods-SIMCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6388C21C25E6D851512C741ECE74719B /* Pods-SIMCategoryKit_Example-dummy.m */; };
+		0E945BD7DA645108B10EF80FED911212 /* UITableView+SIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CD9461FC9FDC91ED9F0F99D1FF5651 /* UITableView+SIMKit.m */; };
+		1C1CF3F125EE14BCE10BCBF6659E7B60 /* UIButton+SIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C746A411BDB65DBE32EDAC9729061D /* UIButton+SIMKit.m */; };
+		23237B0D1B06A3F2A837F2BE81024ED0 /* UIView+SIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 936FEF9908B3135D2789EE54A5582063 /* UIView+SIMKit.m */; };
+		28538DA8C517EFEF31EC08D6C86A5F52 /* UILabel+SIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F63919C67B5E5ABE86177E2BC7768C8 /* UILabel+SIMKit.m */; };
+		29DB980034C2357E989A3020B97E71BC /* UIButton+SIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CC264EA0159AF5006CC2718B9CA2F3DF /* UIButton+SIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DF19F04EBE774690060D5005B738E95 /* UIImage+SIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FE2933F40E479440CCDDB4833ACE7B /* UIImage+SIMKit.m */; };
+		663EBF16FF5952AFA34B8E8E87EE16E8 /* NSDictionary+SIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F18B7EAECDB5066150AA6FA112791B /* NSDictionary+SIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DDB853F44CAE4FBDAADCCA17E1EF22 /* UITableView+SIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 198C7D81A4A3D81E1D0A67F8C0465330 /* UITableView+SIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C309AB45D5ADD1D2798109EED0EF559 /* NSDictionary+SIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 690CE9134CA576AB61E79F70BD20DB6C /* NSDictionary+SIMKit.m */; };
+		805450993F4AB9FE6F664BCB2DDA657D /* UILabel+SIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C702305013C892FA5C1AC30F624B48 /* UILabel+SIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80BAABEC27BD4AC8193A60EAA897E6B6 /* NSString+SIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F250A576E5116C694A62B0B8F77A8F8B /* NSString+SIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		956E15DF7DC2D26097F0D25C20CABDBD /* SIMCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC79EED2F06FE7FBD8D54AAA2C5ACFA /* SIMCategoryKit-dummy.m */; };
+		B63958B27ECE6798CFB82453F4B74AF4 /* UIView+SIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 54008D0733946962ADA0A8715F19F03F /* UIView+SIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA1B9FB52AA5593A4C3243F66DFDC187 /* Pods-SIMCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9DE5BFDD3D710F4D8BEB82D8880CBD /* Pods-SIMCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D405A2C1ECDF868D874B86B985F59EF6 /* SIMCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7389A013EFFFB6D8FA1E5A2F7C7C4B /* SIMCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D647221C29DAA215043818A1814BE26B /* UIImage+SIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BDCB315145E93AED1D4BFFA5906D81 /* UIImage+SIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB17A5BE271DE848699BDA14C3A8E0F3 /* NSString+SIMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C8C3D68EE3205AB6651101CB90CED0 /* NSString+SIMKit.m */; };
+		DC4156063B3F03DA2E048F8066E7D13C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DD96C3AFB9905FB5B0976726C9CD2B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F0AD38FD86B3DB57DE765B10DC7441EE /* Pods-SIMCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B93A10E70DD55FB933E710B9CC907659 /* Pods-SIMCategoryKit_Tests-dummy.m */; };
+		FA399417CAFB8C0EFD660906B625FCF2 /* Pods-SIMCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A53E7CDFD027971FC9E66657BE0EF8E4 /* Pods-SIMCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788FE3615DF6DE3AFFCF6ED7541F610B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A154B9368422709FD0DD1808F7EC3D92;
+			remoteInfo = SIMCategoryKit;
+		};
+		97E779B1A0F5C4A0CC3A05E1D4A7BEE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C33B7A6C2EDAD82C74D22C50C89DFD9;
+			remoteInfo = "Pods-SIMCategoryKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01ACDAE1C3B827517CB0654A0D7D1895 /* SIMCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMCategoryKit-prefix.pch"; sourceTree = "<group>"; };
+		05867E0FC37A9D5FC79D0795687718D9 /* Pods-SIMCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0C0BFCF846E25AC637EDA0E02087D08B /* SIMCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SIMCategoryKit.modulemap; sourceTree = "<group>"; };
+		0D0A7C2E3F96331E50080A36AFB7FF7F /* Pods-SIMCategoryKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIMCategoryKit_Example-Info.plist"; sourceTree = "<group>"; };
+		0F63919C67B5E5ABE86177E2BC7768C8 /* UILabel+SIMKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+SIMKit.m"; path = "SIMCategoryKit/Classes/Categories/UILabel+SIMKit.m"; sourceTree = "<group>"; };
+		0F989AB0575BD7ED83699CBD9921F50B /* Pods_SIMCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SIMCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B0F8D84EF2021A90A4632329ADC145 /* Pods-SIMCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SIMCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
+		18FD0A964A76F1BDAD990B43103152C7 /* Pods-SIMCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIMCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		198C7D81A4A3D81E1D0A67F8C0465330 /* UITableView+SIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SIMKit.h"; path = "SIMCategoryKit/Classes/Categories/UITableView+SIMKit.h"; sourceTree = "<group>"; };
+		1EC79EED2F06FE7FBD8D54AAA2C5ACFA /* SIMCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SIMCategoryKit-dummy.m"; sourceTree = "<group>"; };
+		253C819AF0CA5907FB6E44FD384F5479 /* Pods-SIMCategoryKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIMCategoryKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		26770428E5A38A2EB5E2AF5F06D3E4CA /* Pods-SIMCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SIMCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		27C702305013C892FA5C1AC30F624B48 /* UILabel+SIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+SIMKit.h"; path = "SIMCategoryKit/Classes/Categories/UILabel+SIMKit.h"; sourceTree = "<group>"; };
+		29C8C3D68EE3205AB6651101CB90CED0 /* NSString+SIMKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SIMKit.m"; path = "SIMCategoryKit/Classes/Categories/NSString+SIMKit.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3356A11D1468FF1E748DB1314C01D73C /* SIMCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SIMCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3296D452D08122E1620B166821D6CE /* SIMCategoryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIMCategoryKit.debug.xcconfig; sourceTree = "<group>"; };
+		4350E49A72A6AEE2E49F6E0FA789E780 /* Pods-SIMCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SIMCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D12EB553D9E7C2F8D2672A8D27CAC15 /* Pods-SIMCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		54008D0733946962ADA0A8715F19F03F /* UIView+SIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SIMKit.h"; path = "SIMCategoryKit/Classes/Categories/UIView+SIMKit.h"; sourceTree = "<group>"; };
+		6388C21C25E6D851512C741ECE74719B /* Pods-SIMCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SIMCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
+		63BDCB315145E93AED1D4BFFA5906D81 /* UIImage+SIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SIMKit.h"; path = "SIMCategoryKit/Classes/Categories/UIImage+SIMKit.h"; sourceTree = "<group>"; };
+		67F831949A11B0BE016378852EA319B5 /* SIMCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SIMCategoryKit-Info.plist"; sourceTree = "<group>"; };
+		690CE9134CA576AB61E79F70BD20DB6C /* NSDictionary+SIMKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SIMKit.m"; path = "SIMCategoryKit/Classes/Categories/NSDictionary+SIMKit.m"; sourceTree = "<group>"; };
+		70B0BE854ED12C0C321FDC120DD033E7 /* SIMCategoryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIMCategoryKit.release.xcconfig; sourceTree = "<group>"; };
+		7E02E60E381C4DB392D099F5B97598AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		87C746A411BDB65DBE32EDAC9729061D /* UIButton+SIMKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SIMKit.m"; path = "SIMCategoryKit/Classes/Categories/UIButton+SIMKit.m"; sourceTree = "<group>"; };
+		89CD9461FC9FDC91ED9F0F99D1FF5651 /* UITableView+SIMKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SIMKit.m"; path = "SIMCategoryKit/Classes/Categories/UITableView+SIMKit.m"; sourceTree = "<group>"; };
+		936FEF9908B3135D2789EE54A5582063 /* UIView+SIMKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SIMKit.m"; path = "SIMCategoryKit/Classes/Categories/UIView+SIMKit.m"; sourceTree = "<group>"; };
+		95FE2933F40E479440CCDDB4833ACE7B /* UIImage+SIMKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SIMKit.m"; path = "SIMCategoryKit/Classes/Categories/UIImage+SIMKit.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A53E7CDFD027971FC9E66657BE0EF8E4 /* Pods-SIMCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SIMCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A6B01DD0F6BCCC5A243F41644C8BAC71 /* Pods-SIMCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SIMCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
+		ACB66C089117D1B368E875E806CBC157 /* Pods-SIMCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIMCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5F18B7EAECDB5066150AA6FA112791B /* NSDictionary+SIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SIMKit.h"; path = "SIMCategoryKit/Classes/Categories/NSDictionary+SIMKit.h"; sourceTree = "<group>"; };
+		B93A10E70DD55FB933E710B9CC907659 /* Pods-SIMCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SIMCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		BBDF0FC3A964FAC4641089AA197E8301 /* Pods_SIMCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SIMCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16FD64C9205028098FCDBA1C203D04D /* Pods-SIMCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CC264EA0159AF5006CC2718B9CA2F3DF /* UIButton+SIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+SIMKit.h"; path = "SIMCategoryKit/Classes/Categories/UIButton+SIMKit.h"; sourceTree = "<group>"; };
+		CD11B12BD9E85987A00616C639DDD8BA /* Pods-SIMCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D28E6C04164F67C6C3BF443335C785AD /* Pods-SIMCategoryKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SIMCategoryKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D436D5812EF5CB3D67E0719E683D1825 /* SIMCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SIMCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		E5E8F0F8AAE63A4D40743E022D495EF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EC7389A013EFFFB6D8FA1E5A2F7C7C4B /* SIMCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMCategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		F250A576E5116C694A62B0B8F77A8F8B /* NSString+SIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SIMKit.h"; path = "SIMCategoryKit/Classes/Categories/NSString+SIMKit.h"; sourceTree = "<group>"; };
+		FE9DE5BFDD3D710F4D8BEB82D8880CBD /* Pods-SIMCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SIMCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ACBF5452904559336EDAD21BE3D20A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD96C3AFB9905FB5B0976726C9CD2B2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5400646F6318DF1259722ABDDF64E828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4156063B3F03DA2E048F8066E7D13C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17249FEE7CCC767DAC5947CFE0CA8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04298056EA654D4483A77D4E1BE79F12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2FFEBFE49102EF828758EF90FDABF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDF0FC3A964FAC4641089AA197E8301 /* Pods_SIMCategoryKit_Example.framework */,
+				0F989AB0575BD7ED83699CBD9921F50B /* Pods_SIMCategoryKit_Tests.framework */,
+				3356A11D1468FF1E748DB1314C01D73C /* SIMCategoryKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C3AD5882C6D9EA8A9D319BE3A821B12 /* SIMCategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				B5F18B7EAECDB5066150AA6FA112791B /* NSDictionary+SIMKit.h */,
+				690CE9134CA576AB61E79F70BD20DB6C /* NSDictionary+SIMKit.m */,
+				F250A576E5116C694A62B0B8F77A8F8B /* NSString+SIMKit.h */,
+				29C8C3D68EE3205AB6651101CB90CED0 /* NSString+SIMKit.m */,
+				CC264EA0159AF5006CC2718B9CA2F3DF /* UIButton+SIMKit.h */,
+				87C746A411BDB65DBE32EDAC9729061D /* UIButton+SIMKit.m */,
+				63BDCB315145E93AED1D4BFFA5906D81 /* UIImage+SIMKit.h */,
+				95FE2933F40E479440CCDDB4833ACE7B /* UIImage+SIMKit.m */,
+				27C702305013C892FA5C1AC30F624B48 /* UILabel+SIMKit.h */,
+				0F63919C67B5E5ABE86177E2BC7768C8 /* UILabel+SIMKit.m */,
+				198C7D81A4A3D81E1D0A67F8C0465330 /* UITableView+SIMKit.h */,
+				89CD9461FC9FDC91ED9F0F99D1FF5651 /* UITableView+SIMKit.m */,
+				54008D0733946962ADA0A8715F19F03F /* UIView+SIMKit.h */,
+				936FEF9908B3135D2789EE54A5582063 /* UIView+SIMKit.m */,
+				8F7FD8993D750D7788FCF8AE0C84A631 /* Pod */,
+				E32CAAB3D2D5A79634DD2A582FDDF187 /* Support Files */,
+			);
+			name = SIMCategoryKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8F7FD8993D750D7788FCF8AE0C84A631 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E5E8F0F8AAE63A4D40743E022D495EF4 /* LICENSE */,
+				7E02E60E381C4DB392D099F5B97598AF /* README.md */,
+				D436D5812EF5CB3D67E0719E683D1825 /* SIMCategoryKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FB4647CC4D7A5D55465D02B9DF3B5C04 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0D2FFEBFE49102EF828758EF90FDABF3 /* Products */,
+				F74246D5BAC145331DA88C5E1750EA59 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2DE78E3B8B94CE582F43C00E54B50D1 /* Pods-SIMCategoryKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A6B01DD0F6BCCC5A243F41644C8BAC71 /* Pods-SIMCategoryKit_Example.modulemap */,
+				4350E49A72A6AEE2E49F6E0FA789E780 /* Pods-SIMCategoryKit_Example-acknowledgements.markdown */,
+				ACB66C089117D1B368E875E806CBC157 /* Pods-SIMCategoryKit_Example-acknowledgements.plist */,
+				6388C21C25E6D851512C741ECE74719B /* Pods-SIMCategoryKit_Example-dummy.m */,
+				26770428E5A38A2EB5E2AF5F06D3E4CA /* Pods-SIMCategoryKit_Example-frameworks.sh */,
+				0D0A7C2E3F96331E50080A36AFB7FF7F /* Pods-SIMCategoryKit_Example-Info.plist */,
+				FE9DE5BFDD3D710F4D8BEB82D8880CBD /* Pods-SIMCategoryKit_Example-umbrella.h */,
+				05867E0FC37A9D5FC79D0795687718D9 /* Pods-SIMCategoryKit_Example.debug.xcconfig */,
+				C16FD64C9205028098FCDBA1C203D04D /* Pods-SIMCategoryKit_Example.release.xcconfig */,
+			);
+			name = "Pods-SIMCategoryKit_Example";
+			path = "Target Support Files/Pods-SIMCategoryKit_Example";
+			sourceTree = "<group>";
+		};
+		E32CAAB3D2D5A79634DD2A582FDDF187 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BFCF846E25AC637EDA0E02087D08B /* SIMCategoryKit.modulemap */,
+				1EC79EED2F06FE7FBD8D54AAA2C5ACFA /* SIMCategoryKit-dummy.m */,
+				67F831949A11B0BE016378852EA319B5 /* SIMCategoryKit-Info.plist */,
+				01ACDAE1C3B827517CB0654A0D7D1895 /* SIMCategoryKit-prefix.pch */,
+				EC7389A013EFFFB6D8FA1E5A2F7C7C4B /* SIMCategoryKit-umbrella.h */,
+				3C3296D452D08122E1620B166821D6CE /* SIMCategoryKit.debug.xcconfig */,
+				70B0BE854ED12C0C321FDC120DD033E7 /* SIMCategoryKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SIMCategoryKit";
+			sourceTree = "<group>";
+		};
+		E6DF10FAFD789736EE4F97DF0A6C0B5E /* Pods-SIMCategoryKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16B0F8D84EF2021A90A4632329ADC145 /* Pods-SIMCategoryKit_Tests.modulemap */,
+				D28E6C04164F67C6C3BF443335C785AD /* Pods-SIMCategoryKit_Tests-acknowledgements.markdown */,
+				18FD0A964A76F1BDAD990B43103152C7 /* Pods-SIMCategoryKit_Tests-acknowledgements.plist */,
+				B93A10E70DD55FB933E710B9CC907659 /* Pods-SIMCategoryKit_Tests-dummy.m */,
+				253C819AF0CA5907FB6E44FD384F5479 /* Pods-SIMCategoryKit_Tests-Info.plist */,
+				A53E7CDFD027971FC9E66657BE0EF8E4 /* Pods-SIMCategoryKit_Tests-umbrella.h */,
+				CD11B12BD9E85987A00616C639DDD8BA /* Pods-SIMCategoryKit_Tests.debug.xcconfig */,
+				4D12EB553D9E7C2F8D2672A8D27CAC15 /* Pods-SIMCategoryKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-SIMCategoryKit_Tests";
+			path = "Target Support Files/Pods-SIMCategoryKit_Tests";
+			sourceTree = "<group>";
+		};
+		F74246D5BAC145331DA88C5E1750EA59 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE78E3B8B94CE582F43C00E54B50D1 /* Pods-SIMCategoryKit_Example */,
+				E6DF10FAFD789736EE4F97DF0A6C0B5E /* Pods-SIMCategoryKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB4647CC4D7A5D55465D02B9DF3B5C04 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C3AD5882C6D9EA8A9D319BE3A821B12 /* SIMCategoryKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C73D71B2D244B1803EEFA71B49ECA81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA399417CAFB8C0EFD660906B625FCF2 /* Pods-SIMCategoryKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F51E90AAEB675CDFB95041AFD7C1333 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663EBF16FF5952AFA34B8E8E87EE16E8 /* NSDictionary+SIMKit.h in Headers */,
+				80BAABEC27BD4AC8193A60EAA897E6B6 /* NSString+SIMKit.h in Headers */,
+				D405A2C1ECDF868D874B86B985F59EF6 /* SIMCategoryKit-umbrella.h in Headers */,
+				29DB980034C2357E989A3020B97E71BC /* UIButton+SIMKit.h in Headers */,
+				D647221C29DAA215043818A1814BE26B /* UIImage+SIMKit.h in Headers */,
+				805450993F4AB9FE6F664BCB2DDA657D /* UILabel+SIMKit.h in Headers */,
+				73DDB853F44CAE4FBDAADCCA17E1EF22 /* UITableView+SIMKit.h in Headers */,
+				B63958B27ECE6798CFB82453F4B74AF4 /* UIView+SIMKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F5F24B82E48BACC50FF4837956D416 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1B9FB52AA5593A4C3243F66DFDC187 /* Pods-SIMCategoryKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C33B7A6C2EDAD82C74D22C50C89DFD9 /* Pods-SIMCategoryKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EAAA52C49DAF85A66E49EA90586CC5E /* Build configuration list for PBXNativeTarget "Pods-SIMCategoryKit_Example" */;
+			buildPhases = (
+				A1F5F24B82E48BACC50FF4837956D416 /* Headers */,
+				378354BA47F71970BD7605BCBC8B06C0 /* Sources */,
+				1ACBF5452904559336EDAD21BE3D20A4 /* Frameworks */,
+				0F55DE264D46282929609FD18C8C6B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D7CF96DB08994D9C1C6A3078A017B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SIMCategoryKit_Example";
+			productName = "Pods-SIMCategoryKit_Example";
+			productReference = BBDF0FC3A964FAC4641089AA197E8301 /* Pods_SIMCategoryKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A154B9368422709FD0DD1808F7EC3D92 /* SIMCategoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251DF6A3ABBB016465C724036A055983 /* Build configuration list for PBXNativeTarget "SIMCategoryKit" */;
+			buildPhases = (
+				7F51E90AAEB675CDFB95041AFD7C1333 /* Headers */,
+				F32046B43847CD3818D33D851613BCD1 /* Sources */,
+				C17249FEE7CCC767DAC5947CFE0CA8C6 /* Frameworks */,
+				DB8C36D6515667C934405C3AAA3C0C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIMCategoryKit;
+			productName = SIMCategoryKit;
+			productReference = 3356A11D1468FF1E748DB1314C01D73C /* SIMCategoryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7F4BB419D32D4133518859498A83A41 /* Pods-SIMCategoryKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C87FC372A3666D832FA2D707C253CD /* Build configuration list for PBXNativeTarget "Pods-SIMCategoryKit_Tests" */;
+			buildPhases = (
+				5C73D71B2D244B1803EEFA71B49ECA81 /* Headers */,
+				FD2E587FEEBBF113E47A65674B32C026 /* Sources */,
+				5400646F6318DF1259722ABDDF64E828 /* Frameworks */,
+				A0EDC54DAE39B53EFC9976F3A5C23922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABFA8B458ED8180A322A303EAAE40C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-SIMCategoryKit_Tests";
+			productName = "Pods-SIMCategoryKit_Tests";
+			productReference = 0F989AB0575BD7ED83699CBD9921F50B /* Pods_SIMCategoryKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0D2FFEBFE49102EF828758EF90FDABF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C33B7A6C2EDAD82C74D22C50C89DFD9 /* Pods-SIMCategoryKit_Example */,
+				C7F4BB419D32D4133518859498A83A41 /* Pods-SIMCategoryKit_Tests */,
+				A154B9368422709FD0DD1808F7EC3D92 /* SIMCategoryKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F55DE264D46282929609FD18C8C6B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EDC54DAE39B53EFC9976F3A5C23922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8C36D6515667C934405C3AAA3C0C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378354BA47F71970BD7605BCBC8B06C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082CAA177C4D74637B1C54D9E3A2F9CE /* Pods-SIMCategoryKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32046B43847CD3818D33D851613BCD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C309AB45D5ADD1D2798109EED0EF559 /* NSDictionary+SIMKit.m in Sources */,
+				DB17A5BE271DE848699BDA14C3A8E0F3 /* NSString+SIMKit.m in Sources */,
+				956E15DF7DC2D26097F0D25C20CABDBD /* SIMCategoryKit-dummy.m in Sources */,
+				1C1CF3F125EE14BCE10BCBF6659E7B60 /* UIButton+SIMKit.m in Sources */,
+				4DF19F04EBE774690060D5005B738E95 /* UIImage+SIMKit.m in Sources */,
+				28538DA8C517EFEF31EC08D6C86A5F52 /* UILabel+SIMKit.m in Sources */,
+				0E945BD7DA645108B10EF80FED911212 /* UITableView+SIMKit.m in Sources */,
+				23237B0D1B06A3F2A837F2BE81024ED0 /* UIView+SIMKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2E587FEEBBF113E47A65674B32C026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AD38FD86B3DB57DE765B10DC7441EE /* Pods-SIMCategoryKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D7CF96DB08994D9C1C6A3078A017B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SIMCategoryKit;
+			target = A154B9368422709FD0DD1808F7EC3D92 /* SIMCategoryKit */;
+			targetProxy = 788FE3615DF6DE3AFFCF6ED7541F610B /* PBXContainerItemProxy */;
+		};
+		CABFA8B458ED8180A322A303EAAE40C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SIMCategoryKit_Example";
+			target = 5C33B7A6C2EDAD82C74D22C50C89DFD9 /* Pods-SIMCategoryKit_Example */;
+			targetProxy = 97E779B1A0F5C4A0CC3A05E1D4A7BEE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EB207B9B87F46B43C610D7027AEDEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3296D452D08122E1620B166821D6CE /* SIMCategoryKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SIMCategoryKit/SIMCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SIMCategoryKit/SIMCategoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SIMCategoryKit/SIMCategoryKit.modulemap";
+				PRODUCT_MODULE_NAME = SIMCategoryKit;
+				PRODUCT_NAME = SIMCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A6F0137C8AFC3CFE79880409A399F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05867E0FC37A9D5FC79D0795687718D9 /* Pods-SIMCategoryKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SIMCategoryKit_Example/Pods-SIMCategoryKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SIMCategoryKit_Example/Pods-SIMCategoryKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5A74C79B1A90BFD0750C75E751AF402B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD11B12BD9E85987A00616C639DDD8BA /* Pods-SIMCategoryKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SIMCategoryKit_Tests/Pods-SIMCategoryKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SIMCategoryKit_Tests/Pods-SIMCategoryKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9D93993F650116BA339782F9B239281F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D12EB553D9E7C2F8D2672A8D27CAC15 /* Pods-SIMCategoryKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SIMCategoryKit_Tests/Pods-SIMCategoryKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SIMCategoryKit_Tests/Pods-SIMCategoryKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A711195CBDF0840DEEE702DD70A841EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16FD64C9205028098FCDBA1C203D04D /* Pods-SIMCategoryKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SIMCategoryKit_Example/Pods-SIMCategoryKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SIMCategoryKit_Example/Pods-SIMCategoryKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7FB0B004394846113A47B01C2DB7BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B0BE854ED12C0C321FDC120DD033E7 /* SIMCategoryKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SIMCategoryKit/SIMCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SIMCategoryKit/SIMCategoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SIMCategoryKit/SIMCategoryKit.modulemap";
+				PRODUCT_MODULE_NAME = SIMCategoryKit;
+				PRODUCT_NAME = SIMCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		251DF6A3ABBB016465C724036A055983 /* Build configuration list for PBXNativeTarget "SIMCategoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB207B9B87F46B43C610D7027AEDEB2 /* Debug */,
+				C7FB0B004394846113A47B01C2DB7BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EAAA52C49DAF85A66E49EA90586CC5E /* Build configuration list for PBXNativeTarget "Pods-SIMCategoryKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6F0137C8AFC3CFE79880409A399F04 /* Debug */,
+				A711195CBDF0840DEEE702DD70A841EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C87FC372A3666D832FA2D707C253CD /* Build configuration list for PBXNativeTarget "Pods-SIMCategoryKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A74C79B1A90BFD0750C75E751AF402B /* Debug */,
+				9D93993F650116BA339782F9B239281F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SIMCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - SIMCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  SIMCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SIMCategoryKit: df25ffdd34543f3c1061363450a191572e950058
+
+PODFILE CHECKSUM: f753524927d8ecc90f6760d2d7dcdd37912e833f
+
+COCOAPODS: 1.9.1

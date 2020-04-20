@@ -1,0 +1,6 @@
+framework module SIMCategoryKit {
+  umbrella header "SIMCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
