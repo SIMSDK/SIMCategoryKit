@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SIMCategoryKit_Example' do
+  pod 'SIMCategoryKit', :path => '../'
+
+  target 'SIMCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
